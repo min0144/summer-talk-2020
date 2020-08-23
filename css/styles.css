@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "welcome-header.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/openchat-component.css";
+@import "components/alt-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  font-family: "PT Sans", sans-serif;
+  height: 100vh;
+  color: white;
+  background-color: #05d686;
+}
+
+.main-screen,
+.find-screen {
+  padding: 0px var(--horizontal-space);
+}

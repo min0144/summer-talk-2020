@@ -1,0 +1,27 @@
+.open-chat__content--image {
+  position: relative;
+}
+
+.open-chat__content--image-thumbnail {
+  border-radius: 20px;
+  height: 110px;
+  width: 110px;
+}
+
+.open-chat__content--avatar {
+  border-radius: 10px;
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.open-chat__content--image-popularity {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 7px 10px;
+  border-radius: 13px;
+  font-size: 14px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}

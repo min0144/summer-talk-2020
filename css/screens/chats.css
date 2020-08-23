@@ -1,0 +1,14 @@
+.chats-notification {
+  background-color: tomato;
+  color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.chats__column {
+  display: flex;
+  flex-direction: column;
+}

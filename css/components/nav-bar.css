@@ -1,0 +1,96 @@
+.nav {
+  position: fixed;
+  bottom: 30px;
+  width: 70%;
+  margin: 0px 15%;
+  border-top: 1px solid #f4f4f5;
+  border-radius: 30px;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  background-color: beige;
+  box-shadow: 0px 5px 5px rgb(224, 224, 201);
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__btn {
+  animation: appearBtnAnimation 1s ease-in-out;
+}
+
+.nav__btn:hover {
+  animation: rotateAnimation 0.5s ease-in-out;
+}
+
+.nav__link {
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes appearBtnAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.nav__update {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
+}
+
+.nav__update__find {
+  background-color: tomato;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 70px;
+  bottom: 25px;
+}

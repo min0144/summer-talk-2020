@@ -1,0 +1,25 @@
+#no-mobile {
+  font-family: "PT Sans";
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  background-color: #05d686;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+#no-mobile span {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
