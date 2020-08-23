@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Welcome - Summer Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Summer Talk!</h1>
+      <p class="welcome-header__text">
+        Log in & Chat with your friends to beat this year's scorching summer.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <button>
+        <img
+          src="https://cdn.iconscout.com/icon/free/png-512/watermelon-fruit-emoj-symbol-food-30691.png"
+        />
+        <input type="submit" value="" />
+      </button>
+      <a href="#">Click the dancing watermelon to enter</a>
+    </form>
+
+    <div id="no-mobile">
+      <i class="fas fa-sad-tear fa-5x"></i>
+      <span>Your screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/127bd864d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
